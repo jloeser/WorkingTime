@@ -1,12 +1,12 @@
-# WorkingTime
+# WorkingHours
 
-The program is a tool written in Python, which is used to record the daily working time and breaks.
+The program is a tool written in Python, which is used to record the daily working hours and breaks.
 The recorded times are saved in a Git repository created especially for the tool.
 
 ## Overview
 ```
 Usage:
-  workingtime [command]
+  workinghours [command]
 
 Available commands:
   list
@@ -17,7 +17,7 @@ Available commands:
 
 ```
 Usage:
-  workingtime list [options]
+  workinghours list [options]
 
 Options:
   -a, --all                                      List all available days
@@ -26,7 +26,7 @@ Options:
 
 ```
 Usage:
-  workingtime add [options]
+  workinghours add [options]
 
 Options:
   -d, --day                                      Day of entry
@@ -38,7 +38,7 @@ Options:
 
 ```
 Usage:
-  workingtime edit [options]
+  workinghours edit [options]
 
 Options:
   -d, --day                                      Day of entry
@@ -50,7 +50,7 @@ Options:
 
 ```
 Usage:
-  workingtime edit [options]
+  workinghours edit [options]
 
 Options:
   -d, --day                                      Day of entry
