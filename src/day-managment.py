@@ -1,5 +1,8 @@
 class GitHandling:
 
+    def __init__(self):
+        pass
+
     def workdays_pull(self):
         pass
 
@@ -8,6 +11,9 @@ class GitHandling:
 
 
 class ManagementWorkingDays:
+
+    def __init__(self):
+        pass
     
     def workingdays_list(self):
         pass
@@ -23,6 +29,9 @@ class ManagementWorkingDays:
 
 
 class WorkHours:
+
+    def __init__(self):
+        pass
 
     def workinghours_list(self):
         pass
