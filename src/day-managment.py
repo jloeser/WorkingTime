@@ -1,48 +1,46 @@
-class GitHandling:
+class Database:
 
     def __init__(self):
         pass
 
-    def workdays_pull(self):
-        pass
+    def load(self):
+        days = Days()
+        for line in textfile:
+            day_from_line = Day()
+            days.append(day_from_line)
+        return days
 
-    def workdays_push(self):
-        pass
-
-
-class ManagementWorkingDays:
-
-    def __init__(self):
-        pass
-    
-    def workingdays_list(self):
-        pass
-
-    def workingday_add(self):
-        pass
-
-    def workingday_edit(self):
-        pass
-
-    def workingdays_del(self):
+    def save(self):
         pass
 
 
-class WorkHours:
+class Days(list):
 
     def __init__(self):
         pass
 
-    def workinghours_list(self):
+    def list(self):
         pass
 
-    def workinghours_add(self):
+    def add(self):
+        newday = Day()
+        self.append(newday)
+
+    def edit(self):
         pass
 
-    def workinghours_edit(self):
+    def delete(self):
         pass
 
-    def workinghours_del(self):
-        pass
-    
+    def __del__(self):
+        print("I am going to be removed...")
 
+
+class Day:
+
+    def __init__(self, date):
+        self.date = date
+        print("Hello, I am alive")
+
+    def __del__(self):
+        print("I am going to be removed...")
